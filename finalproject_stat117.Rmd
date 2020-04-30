@@ -297,7 +297,7 @@ for (ii in 1:18) {print(head(pam50_pCR[[ii]]))}
 
 Therefore, we can only get baselines based on the other studies. Let's remove bad studies, train a logistic regression using pam50 as suggested, and get a benchmark test AUC/accuracy. Let's do this on one instantiation of the test set.  
 ```{r, include = FALSE}
-load("data/benchmark.RData") # for consistent results
+load("data/benchmark_pithy.RData") # for consistent results
 ```
 ```{r benchmarks}
 # library(cvAUC)
